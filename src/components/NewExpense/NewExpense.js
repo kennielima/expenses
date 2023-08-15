@@ -12,7 +12,7 @@ const SaveExpenseDataHandler = (enteredExpenseDat) => {
     // clearHandler() or
     setIsFullForm(false)
 }
-  const [isFullForm, setIsFullForm] = useState(true);
+  const [isFullForm, setIsFullForm] = useState(false);
 
   let clearHandler = () => {
     setIsFullForm(false)
