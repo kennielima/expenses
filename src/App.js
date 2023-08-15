@@ -6,9 +6,9 @@ import Expenses from "./components/Expenses/Expenses";
 const Dummy_Expenses = [
   {
     id: "e1",
-    title: "Toilet Paper",
+    title: "Groceries",
     amount: 94.12,
-    date: new Date(2020, 7, 14),
+    date: new Date(2021, 7, 14),
   },
   { 
     id: "e2", 
@@ -24,10 +24,16 @@ const Dummy_Expenses = [
   },
   {
     id: "e4",
-    title: "New Desk (Wooden)",
-    amount: 450,
-    date: new Date(2021, 5, 12),
+    title: "Rent",
+    amount: 1500,
+    date: new Date(2023, 5, 12),
   },
+  {
+    id: "e5",
+    title: "Dental",
+    amount: 74.67,
+    date: new Date(2022, 2, 28),
+  }
 ];
 
 function App(props) {
